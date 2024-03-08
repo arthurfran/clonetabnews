@@ -1,7 +1,7 @@
 {
   "name": "clonetabnews",
   "version": "1.0.0",
-  "description": "",
+  "description": "aprendendo a criar o tabnews do zero",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",

@@ -19,10 +19,6 @@ async function status(request, response) {
       },
     },
   });
-  console.log(updatedAt);
-  console.log(maxConnections.rows);
-  console.log(version.rows);
-  console.log(OpenedConnections.rows[0]);
 }
 
 export default status;

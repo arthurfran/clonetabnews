@@ -4,7 +4,7 @@ beforeAll(cleanDatabase);
 async function cleanDatabase() {
   await database.query("DROP SCHEMA public CASCADE; CREATE SCHEMA public");
 }
-test("teste de integração saída 200", async () => {
+test("POST das migrations saída 200", async () => {
   const response1 = await fetch("http://localhost:3000/api/v1/migrations", {
     method: "POST",
   });

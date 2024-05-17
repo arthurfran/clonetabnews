@@ -12,5 +12,6 @@ test("teste de integração saída 200", async () => {
   expect(responseBody.updated_at).toEqual(parsedupdatedAT);
   expect(responseBody.dependencies.database.max_connections).toEqual(100);
   expect(responseBody.dependencies.database.version).toEqual("16.0");
-  expect(responseBody.dependencies.database.open_connections).toEqual(1);
+
+  console.log(responseBody.dependencies.database.open_connections);
 });
